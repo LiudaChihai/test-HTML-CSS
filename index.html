@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Business Card Example</title>
+    <style>
+        body {
+            background-color: #EEE;
+        }
+
+        h1,
+        h2,
+        p,
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        #business-card {
+            background-color: #111;
+            width: 400px;
+            height: 200px;
+
+            /*  ??? */
+            border-top: 5px solid #c0c0c0 ;
+            border-left: 5px solid  #c0c0c0 ;
+            border-bottom: 10px solid  #c0c0c0;
+            border-right: 10px solid  #c0c0c0 ;
+            margin: 50px auto;
+            font-family: Arial;
+            font-size: 13px ;
+        }
+
+        #business-card .name {
+            /*  ??? */
+            width: 160px;
+            height: 110px ;
+            float: left ;
+            border-right: 2px solid white;
+            text-align: right ;
+            line-height: 30px ;
+            margin-top: 35px ;
+            padding-top: 15px ;
+            padding-right: 7px ;
+        }
+
+        #business-card .info {
+            /*  ??? */
+            color: white;
+            width: 220px ;
+            height: 130px ;
+            margin-top: 35px ;
+            float: right;
+            text-align: left;
+            line-height: 18px;
+            font-size: 15px ;
+            padding-left: 7px ;
+        }
+
+        #business-card .name h1 {
+            /*  ??? */
+            color: white;
+        }
+
+        #business-card .name h2 {
+            /*  ??? */
+            color: #FFCC66;
+            text-transform: uppercase;
+        }
+
+        #business-card .name small {
+            /*  ??? */
+            color: #fff3e4 ;
+        }
+
+        #business-card .info li {
+            /*  ??? */
+            color:    #fff3e4;
+            font-size: 12px ;
+        }
+
+        #business-card .info li:before {
+            /*  ??? */
+            content: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="business-card">
+
+        <div class="name">
+            <h1>Firstname</h1>
+            <h2>Lastname</h2>
+            <small>web designer &#47; developer</small>
+        </div>
+        <div class="info">
+            <p>12345 Some Street, City<br>State, Province, Country</p>
+            <ul>
+                <li> <img src="images/cellphone.png" alt="cellphone">+00 22 333444</li> 
+                <li> <img src="images/email.png" alt="email">  email@somemail.example</li>
+                <li> <img src="images/maps.png" alt="maps"> www.exampledomain.example</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>

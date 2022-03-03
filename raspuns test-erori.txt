@@ -1,0 +1,19 @@
+4    <meta charset="UFT-8">
+6    h2 inlocuim cu #name
+9    #image { width:200px;}
+10   #images-ul {background-color: black;}
+13   tag-ul <title> trebuie scris inainte de tag-ul<style>
+15   body {background-color: red;} ar fi mai corect scris in elementul <style>
+18   <h2> il inlocuim cu <h1>, deoarece <h1> contine continut primar, iar <h2> secundar
+19   <h1> il inlocuim cu <h2>
+     <h2> id="name" ........ </h2>
+23   </header>
+24   Elementul <article>
+29   width: 200px
+30   <img src= "images/logo.jpg" id="image" align="left">
+32   <p id="description">
+34   Tag-urile <h1>  <h2>  <h3>  <h4>  <h5>  <h6> trebuie scrise conform structurii ierarhice
+36   tag-ul <b> este un stil aplicat textului, iar tag-ul <strong> indica importanta textului, aceste tag-uri sunt diferite
+38   Elementul <nav>
+39   background black
+40   <ul id="images-ul"  class="menus">
